@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LogowithImage"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="750" Width="800">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/LogowithImage;component/Resources/I4.jpg"/>
@@ -26,6 +26,12 @@
             <StackPanel Margin="20" Orientation="Vertical" Visibility="Visible">
                 <Button Name="Bajaj" Height="100" Width="150" HorizontalAlignment="Left" Click="Bajaj_Click">
                     <Image Height="100"  Width="200" HorizontalAlignment="Center" Source="/LogowithImage;component/Resources/B1.jpg"></Image>
+                </Button>
+            </StackPanel>
+
+            <StackPanel Margin="20" Orientation="Vertical" Visibility="Visible">
+                <Button Name="TVS" Height="100" Width="150" HorizontalAlignment="Left" Click="TVS_Click">
+                    <Image Height="100"  Width="200" HorizontalAlignment="Center" Source="/LogowithImage;component/Resources/T1.jpg"></Image>
                 </Button>
             </StackPanel>
 
