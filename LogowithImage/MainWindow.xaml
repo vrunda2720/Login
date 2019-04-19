@@ -30,6 +30,13 @@
             </StackPanel>
 
             <StackPanel Margin="20" Orientation="Vertical" Visibility="Visible">
+                <Button Name="Suzuki" Height="100" Width="150" HorizontalAlignment="Left" Click="Suzuki_Click">
+                    <Image Height="100"  Width="200" HorizontalAlignment="Center" Source="/LogowithImage;component/Resources/S1.png"></Image>
+                </Button>
+            </StackPanel>
+
+
+            <StackPanel Margin="20" Orientation="Vertical" Visibility="Visible">
                 <Button Name="TVS" Height="100" Width="150" HorizontalAlignment="Left" Click="TVS_Click">
                     <Image Height="100"  Width="200" HorizontalAlignment="Center" Source="/LogowithImage;component/Resources/T1.jpg"></Image>
                 </Button>

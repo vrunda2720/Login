@@ -69,6 +69,20 @@ namespace LogowithImage
             }
         }
 
+        private void Suzuki_Click(object sender, RoutedEventArgs e)
+        {
+            if (Image.Visibility == Visibility.Visible)
+            {
+                Image.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                Image.Visibility = Visibility.Visible;
+                BitmapImage image = new BitmapImage(new Uri("pack://application:,,,/LogowithImage;component/Resources/S4.jpg", UriKind.Absolute));
+                Image.Source = image;
+            }
+        }
+
         private void TVS_Click(object sender, RoutedEventArgs e)
         {
             if (Image.Visibility == Visibility.Visible)
